@@ -1,0 +1,46 @@
+.expertise_container{
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+}
+
+.expertise_container >div {
+    background: var(--color-bg-variant);
+    padding: 2.4rem;
+    border-radius: 2rem;
+    border: 1px solid transparent;
+    transition: var(--transition);
+
+}
+
+.expertise_container >div:hover {
+    background: transparent;
+    border-color: var(--color-primary-variant);
+    cursor: default;
+
+}
+
+.expertise_container >div h3{
+    text-align: center;
+    margin-bottom: 2rem;
+    color: var(--color-primary);  
+}
+
+.expertise_content{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    row-gap: 2rem;
+
+}
+
+.expertise_details{
+    display: flex;
+    gap:1rem;
+}
+
+
+.expertise_details-icon{
+    margin-top: 6px;
+    color:var(--color-primary);
+}
+
